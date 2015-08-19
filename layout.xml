@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+  <row>
+    <button color="green" text="Launch" ontap="ankilaunch" />
+    <button text="Select deck" ontap="actiondeck" />
+    <button color="red" text="Quit" ontap="ankiquit" />
+  </row>
+  <row>
+    <button icon="up" onTap="moveup" />
+    <button icon="select" onTap="select" />
+    <button icon="down" onTap="movedown" />
+  </row>
+  <row>
+    <button text="Show Answer" ontap="actionanswer" />
+  </row>
+  <row>
+    <button color="red" text="Again" onTap="ratingagain" />
+    <button color="orange" text="Hard" onTap="ratinghard" />
+    <button color="yellow" text="Good" onTap="ratinggood" />
+    <button color="green" text="Easy" onTap="ratingeasy" />
+  </row>
+  <row>
+    <button icon="favorite" onTap="actionmark" />
+    <button icon="docclose" onTap="actionsuspend" />
+    <button icon="rotateleft" onTap="actionundo" />
+  </row>
+</layout>
