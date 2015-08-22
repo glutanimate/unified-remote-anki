@@ -47,6 +47,11 @@ actions.actionzoomzero = function ()
   kb.stroke("ctrl", "digit0");
 end
 
+actions.actionfullscreen = function ()
+  kb.stroke("f11");
+end
+
+
 actions.actionrepeat = function ()
   kb.stroke("r");
 end
