@@ -11,14 +11,19 @@
     <button icon="down" onTap="movedown" />
   </row>
   <row>
-    <button icon="repeat" onTap="actionrepeat" />
-    <button text="Show Answer" ontap="actionanswer" />
+    <button icon="zoomin" onTap="actionzoomin" />
+    <button icon="zoomnormal" ontap="actionzoomzero" />
+    <button icon="zoomout" ontap="actionzoomout" />
   </row>
   <row>
-    <button color="red" text="Again" onTap="ratingagain" />
-    <button color="orange" text="Hard" onTap="ratinghard" />
-    <button color="yellow" text="Good" onTap="ratinggood" />
-    <button color="green" text="Easy" onTap="ratingeasy" />
+    <button text="Show Answer" ontap="actionanswer" />
+    <button icon="repeat" onTap="actionrepeat" />
+  </row>
+  <row>
+    <button color="red" text="1" onTap="ratingagain" />
+    <button color="orange" text="2" onTap="ratinghard" />
+    <button color="yellow" text="3" onTap="ratinggood" />
+    <button color="green" text="4" onTap="ratingeasy" />
   </row>
   <row>
     <button icon="favorite" onTap="actionmark" />

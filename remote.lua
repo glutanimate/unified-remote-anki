@@ -35,6 +35,18 @@ actions.select = function ()
   kb.stroke("enter");
 end
 
+actions.actionzoomin = function ()
+  kb.stroke("ctrl", "kpadd");
+end
+
+actions.actionzoomout = function ()
+  kb.stroke("ctrl", "kpsubtract");
+end
+
+actions.actionzoomzero = function ()
+  kb.stroke("ctrl", "digit0");
+end
+
 actions.actionrepeat = function ()
   kb.stroke("r");
 end
