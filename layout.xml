@@ -11,6 +11,7 @@
     <button icon="down" onTap="movedown" />
   </row>
   <row>
+    <button icon="repeat" onTap="actionrepeat" />
     <button text="Show Answer" ontap="actionanswer" />
   </row>
   <row>

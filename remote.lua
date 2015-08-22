@@ -12,7 +12,7 @@ local kb = libs.keyboard;
 
 
 actions.ankilaunch = function ()
-  os.start("anki");
+  os.start("htfx_apps_anki");
 end
 
 actions.ankiquit = function ()
@@ -33,6 +33,10 @@ end
 
 actions.select = function ()
   kb.stroke("enter");
+end
+
+actions.actionrepeat = function ()
+  kb.stroke("r");
 end
 
 actions.actionanswer = function ()
@@ -62,6 +66,7 @@ end
 actions.actionsuspend = function ()
   kb.text("!");
 end
+
 
 actions.actionundo = function ()
   kb.stroke("ctrl", "z");

@@ -10,6 +10,7 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 * Move up
 * Select
 * Move down
+* Repeat media playback
 * Reveal answer
 * Apply ratings: Again/Hard/Good/Easy
 * Mark card
