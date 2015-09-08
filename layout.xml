@@ -18,7 +18,6 @@
   </row>
   <row>
     <button text="Show Answer" ontap="actionanswer" />
-    <button icon="repeat" onTap="actionrepeat" />
   </row>
   <row>
     <button color="red" text="1" onTap="ratingagain" />
@@ -27,6 +26,7 @@
     <button color="green" text="4" onTap="ratingeasy" />
   </row>
   <row>
+    <button icon="repeat" onTap="actionrepeat" />
     <button icon="favorite" onTap="actionmark" />
     <button icon="docclose" onTap="actionsuspend" />
     <button icon="rotateleft" onTap="actionundo" />

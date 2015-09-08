@@ -10,9 +10,11 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 * Move up
 * Select
 * Move down
-* Repeat media playback
+* Zoom in/Original Zoom/Zoom out (requires [Anki Zoom add-on](https://ankiweb.net/shared/info/1956318463))
+* Fullscreen (requirues [Anki Full Screen F11 add-on](https://ankiweb.net/shared/info/3192665669))
 * Reveal answer
 * Apply ratings: Again/Hard/Good/Easy
+* Repeat media playback
 * Mark card
 * Suspend note
 * Undo
