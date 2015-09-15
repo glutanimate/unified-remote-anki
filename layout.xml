@@ -1,34 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout>
   <row>
-    <button color="green" text="Launch" ontap="ankilaunch" />
-    <button text="Select deck" ontap="actiondeck" />
-    <button color="red" text="Quit" ontap="ankiquit" />
+    <button color="green" text="Launch" ontap="launch" />
+    <button text="Select deck" ontap="select_deck" />
+    <button color="red" text="Quit" ontap="quit" />
   </row>
   <row>
-    <button icon="up" onTap="moveup" />
+    <button icon="up" onTap="move_up" />
     <button icon="select" onTap="select" />
-    <button icon="down" onTap="movedown" />
+    <button icon="down" onTap="move_down" />
   </row>
   <row>
-    <button icon="zoomin" onTap="actionzoomin" />
-    <button icon="zoomnormal" ontap="actionzoomzero" />
-    <button icon="zoomout" ontap="actionzoomout" />
-    <button icon="fullscreen" ontap="actionfullscreen" />
+    <button icon="zoomin" onTap="zoom_in" />
+    <button icon="zoomnormal" ontap="zoom_normal" />
+    <button icon="zoomout" ontap="zoom_out" />
+    <button icon="fullscreen" ontap="fullscreen" />
   </row>
   <row>
-    <button text="Show Answer" ontap="actionanswer" />
+    <button text="Show Answer" ontap="show_answer" />
   </row>
   <row>
-    <button color="red" text="1" onTap="ratingagain" />
-    <button color="orange" text="2" onTap="ratinghard" />
-    <button color="yellow" text="3" onTap="ratinggood" />
-    <button color="green" text="4" onTap="ratingeasy" />
+    <button color="red" text="1" onTap="rating_1" />
+    <button color="orange" text="2" onTap="rating_2" />
+    <button color="yellow" text="3" onTap="rating_3" />
+    <button color="green" text="4" onTap="rating_4" />
   </row>
   <row>
-    <button icon="repeat" onTap="actionrepeat" />
-    <button icon="favorite" onTap="actionmark" />
-    <button icon="docclose" onTap="actionsuspend" />
-    <button icon="rotateleft" onTap="actionundo" />
+    <button icon="repeat" onTap="repeat_media" />
+    <button icon="favorite" onTap="mark" />
+    <button icon="docclose" onTap="suspend" />
+    <button icon="rotateleft" onTap="undo" />
   </row>
 </layout>

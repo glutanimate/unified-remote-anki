@@ -11,23 +11,23 @@ local kb = libs.keyboard;
 -- http://www.unifiedremote.com/api/libs/os
 
 
-actions.ankilaunch = function ()
+actions.launch = function ()
   os.start("htfx_apps_anki");
 end
 
-actions.ankiquit = function ()
+actions.quit = function ()
   kb.stroke("ctrl", "q");
 end
 
-actions.actiondeck = function ()
+actions.select_deck = function ()
   kb.text(".");
 end
 
-actions.moveup = function ()
+actions.move_up = function ()
   kb.press("up");
 end
 
-actions.movedown = function ()
+actions.move_down = function ()
   kb.press("down");
 end
 
@@ -35,56 +35,56 @@ actions.select = function ()
   kb.stroke("enter");
 end
 
-actions.actionzoomin = function ()
+actions.zoom_in = function ()
   kb.stroke("ctrl", "kpadd");
 end
 
-actions.actionzoomout = function ()
+actions.zoom_out = function ()
   kb.stroke("ctrl", "kpsubtract");
 end
 
-actions.actionzoomzero = function ()
+actions.zoom_normal = function ()
   kb.stroke("ctrl", "digit0");
 end
 
-actions.actionfullscreen = function ()
+actions.fullscreen = function ()
   kb.stroke("f11");
 end
 
 
-actions.actionrepeat = function ()
+actions.repeat_media = function ()
   kb.stroke("r");
 end
 
-actions.actionanswer = function ()
+actions.show_answer = function ()
   kb.stroke("space");
 end
 
-actions.ratingagain = function ()
+actions.rating_1 = function ()
   kb.stroke("1");
 end
 
-actions.ratinghard = function ()
+actions.rating_2 = function ()
   kb.stroke("2");
 end
 
-actions.ratinggood = function ()
+actions.rating_3 = function ()
   kb.stroke("3");
 end
 
-actions.ratingeasy = function ()
+actions.rating_4 = function ()
   kb.stroke("4");
 end
 
-actions.actionmark = function ()
+actions.mark = function ()
   kb.text("*");
 end
 
-actions.actionsuspend = function ()
+actions.suspend = function ()
   kb.text("!");
 end
 
 
-actions.actionundo = function ()
+actions.undo = function ()
   kb.stroke("ctrl", "z");
 end
