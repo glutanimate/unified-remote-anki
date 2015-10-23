@@ -1,5 +1,5 @@
 local kb = libs.keyboard;
-
+local server = require("server");
 
 -- Documentation
 -- http://www.unifiedremote.com/api
@@ -11,12 +11,31 @@ local kb = libs.keyboard;
 -- http://www.unifiedremote.com/api/libs/os
 
 
-actions.launch = function ()
-  os.start("htfx_apps_anki");
+-- dialogs
+
+actions.quitdialog = function ()
+      server.update({ 
+        type = "dialog", 
+        text = "Are you sure you want to quit Anki?", 
+        children = {
+            { type = "button", text = "No" },
+            { type = "button", text = "Yes",  ontap = "quit" }
+        }
+    });
 end
 
-actions.quit = function ()
-  kb.stroke("ctrl", "q");
+-- actions
+
+actions.quit = function()
+    kb.stroke("ctrl", "q");
+end
+
+actions.launch = function ()
+  os.start("htfx_apps_anki", "-p", "Synchronisiert");
+end
+
+actions.overview = function()
+    kb.stroke("d");
 end
 
 actions.select_deck = function ()
@@ -31,8 +50,12 @@ actions.move_down = function ()
   kb.press("down");
 end
 
-actions.select = function ()
-  kb.stroke("enter");
+actions.backspace = function ()
+  kb.press("backspace");
+end
+
+actions.escape = function ()
+  kb.press("escape");
 end
 
 actions.zoom_in = function ()
@@ -47,7 +70,7 @@ actions.zoom_normal = function ()
   kb.stroke("ctrl", "digit0");
 end
 
-actions.fullscreen = function ()
+actions.full_screen = function ()
   kb.stroke("f11");
 end
 
@@ -57,7 +80,7 @@ actions.repeat_media = function ()
 end
 
 actions.show_answer = function ()
-  kb.stroke("space");
+  kb.stroke("enter");
 end
 
 actions.rating_1 = function ()

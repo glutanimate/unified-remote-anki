@@ -2,22 +2,24 @@
 <layout>
   <row>
     <button color="green" text="Launch" ontap="launch" />
-    <button text="Select deck" ontap="select_deck" />
-    <button color="red" text="Quit" ontap="quit" />
+    <button color="blue" text="Overview" ontap="overview" weight="2" />
+    <button color="red" text="Quit" ontap="quitdialog" />
+  </row>
+  <row>
+    <button icon="backspace" onTap="backspace" />
+    <button text="Select deck" ontap="select_deck" weight="2" />
+    <button text="Esc" ontap="escape" />
+  </row>
+  <row>
+    <button icon="zoomnormal" ontap="zoom_normal" />
+    <button icon="zoomin" onTap="zoom_in" />
+    <button icon="zoomout" ontap="zoom_out" />
+    <button icon="fullscreen" ontap="full_screen" />
   </row>
   <row>
     <button icon="up" onTap="move_up" />
-    <button icon="select" onTap="select" />
+    <button text="Answer | Confirm" ontap="show_answer" weight="2"/>
     <button icon="down" onTap="move_down" />
-  </row>
-  <row>
-    <button icon="zoomin" onTap="zoom_in" />
-    <button icon="zoomnormal" ontap="zoom_normal" />
-    <button icon="zoomout" ontap="zoom_out" />
-    <button icon="fullscreen" ontap="fullscreen" />
-  </row>
-  <row>
-    <button text="Show Answer" ontap="show_answer" />
   </row>
   <row>
     <button color="red" text="1" onTap="rating_1" />
