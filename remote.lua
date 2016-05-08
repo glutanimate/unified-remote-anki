@@ -31,7 +31,7 @@ actions.quit = function()
 end
 
 actions.launch = function ()
-  os.start("htfx_apps_anki", "-p", "Synchronisiert");
+  os.start("anki");
 end
 
 actions.overview = function()
