@@ -4,16 +4,41 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 
 ## Features
 
+List of buttons, from top to bottom:
+
+*First row*
+
 * Launch Anki
-* Select deck to review
-* Quit Anki
+* Go to Deck Overview
+* Quit Anki (with confirmation dialog)
+
+*Second row*
+
+* Backspace
+* Select deck
+* Escape
+
+*Third row*
+
+The following features require the [Zoom](https://ankiweb.net/shared/info/1956318463) and [Toggle Full Screen](https://ankiweb.net/shared/info/1703043345) add-ons for Anki to be installed.
+
+* Reset zoom
+* Zoom in
+* Zoom out
+* Go fullscreen
+
+*Fourth row*
+
 * Move up
-* Select
+* Answer/Confirm selection
 * Move down
-* Zoom in/Original Zoom/Zoom out (requires [Anki Zoom add-on](https://ankiweb.net/shared/info/1956318463))
-* Fullscreen (requirues [Anki Full Screen F11 add-on](https://ankiweb.net/shared/info/3192665669))
-* Reveal answer
-* Apply ratings: Again/Hard/Good/Easy
+
+*Fifth row*
+
+* Apply rating: 1/2/3/4
+
+*Sixth row*
+
 * Repeat media playback
 * Mark card
 * Suspend note
@@ -26,7 +51,12 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 ## Requirements
 
 * Anki 2.0.x
-* This custom remote has only been tested on Linux. Some features (e.g. launching Anki) might not work on other platforms
+* (optional) [Zoom](https://ankiweb.net/shared/info/1956318463) and [Toggle Full Screen](https://ankiweb.net/shared/info/1703043345) add-ons for Anki
+
+## Changelog
+
+* 2016-05-08: Added more buttons; Restructured remote; Remote now asks for confirmation before exiting
+* 2015-08-09: Initial release
 
 ## Todo
 
@@ -35,8 +65,8 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 
 ## License
 
-*Copyright (c) 2015 Glutanimate*
+*Copyright (c) 2015-2016 Glutanimate*
 
 This project is licensed under the GNU GPLv3.
 
-The project's icon is based on '[Anki icon for Faenza](http://jesuisbenjamin.deviantart.com/art/Anki-icon-for-Faenza-202232311)' by [jesuisbenjamin](http://jesuisbenjamin.deviantart.com/); released under the [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.
+The icon is based on '[Anki icon for Faenza](http://jesuisbenjamin.deviantart.com/art/Anki-icon-for-Faenza-202232311)' by [jesuisbenjamin](http://jesuisbenjamin.deviantart.com/); released under the [CC BY-NC-SA 3.0](https://creativecommons.org/licenses/by-nc-sa/3.0/) license.
