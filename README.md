@@ -2,6 +2,10 @@
 
 A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetition flashcard app [Anki](http://ankisrs.net/). Review cards while on a treadmill or across the room!
 
+## Screenshot
+
+<img src="https://raw.githubusercontent.com/Glutanimate/unified-remote-anki/master/screen.png" width="320">
+
 ## Features
 
 List of buttons, from top to bottom:
@@ -43,10 +47,6 @@ The following features require the [Zoom](https://ankiweb.net/shared/info/195631
 * Mark card
 * Suspend note
 * Undo
-
-## Screenshot
-
-<img src="https://raw.githubusercontent.com/Glutanimate/unified-remote-anki/master/screen.png" width="320">
 
 ## Requirements
 
