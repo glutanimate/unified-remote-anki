@@ -4,7 +4,7 @@ A simple [custom remote](https://www.unifiedremote.com/) for the spaced repetiti
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/Glutanimate/unified-remote-anki/master/screen.png" width="320">
+<img src="https://raw.githubusercontent.com/Glutanimate/unified-remote-anki/master/screen.png">
 
 ## Features
 
@@ -55,13 +55,9 @@ The following features require the [Zoom](https://ankiweb.net/shared/info/195631
 
 ## Changelog
 
+* 2016-05-14: Added support for OS X (thanks to @luminousspice!)
 * 2016-05-08: Added more buttons; Restructured remote; Remote now asks for confirmation before exiting
 * 2015-08-09: Initial release
-
-## Todo
-
-* test on other platforms
-* add more actions
 
 ## License
 
